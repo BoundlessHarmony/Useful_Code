@@ -18,3 +18,4 @@ Usage Notes:
 	~~~ Currently only compatible with single host, TCP port scan outout
 	~~~ Comments derived from learning the XML library are retained for future reference
 	~~~ Comments regarding script function are also present
+	~~~ Version 1.0 LOTS of room for improvement. Sorry for lack of convenience features
