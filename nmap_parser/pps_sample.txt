@@ -1,0 +1,59 @@
+PORT     SERVICE 
+
+22/tcp    ssh    
+
+25/tcp    smtp 
+
+53/tcp	  dns 
+
+80/tcp    http  
+
+81/tcp    http  
+
+88/tcp	  kerberos 
+
+135/tcp   msrpc  
+
+139/tcp   netbios-ssn  
+
+389/tcp   LDAP 
+
+443/tcp   ssl/https? 
+
+444/tcp   ssl/snpp? 
+
+445/tcp   microsoft-ds  
+
+465/tcp   smtp          
+
+587/tcp   smtp        
+
+593/tcp   ncacn_http   
+
+636/tcp	  ldaps  
+
+808/tcp   ccproxy-http? 
+
+2525/tcp  smtp 
+
+3268/tcp  ldap 
+
+3269/tcp  tcpwrapped          
+
+5060/tcp  sip? 
+
+5666/tcp  tcpwrapped 
+
+6001/tcp  ncacn_http   
+
+6005/tcp  msrpc         
+
+6006/tcp  msrpc        
+
+6007/tcp  msrpc        
+
+6009/tcp  msrpc      
+
+41000 or higher (ephemeral ports) 
+
+50389/tcp ldap 

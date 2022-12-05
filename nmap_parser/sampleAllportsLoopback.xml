@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?><nmaprun start="1670195661" profile_name="" xmloutputversion="1.04" scanner="nmap" version="7.93" startstr="Sun Dec  4 18:14:21 2022" args="nmap -p - -T4 127.0.0.1"><scaninfo services="1-65535" protocol="tcp" numservices="65535" type="syn"></scaninfo><verbose level="0"></verbose><debugging level="0"></debugging><output type="interactive">Starting Nmap 7.93 ( https://nmap.org ) at 2022-12-04 18:14 Eastern Standard Time
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00028s latency).
+Not shown: 65491 closed tcp ports (reset)
+PORT      STATE    SERVICE
+135/tcp   open     msrpc
+137/tcp   filtered netbios-ns
+445/tcp   open     microsoft-ds
+902/tcp   open     iss-realsecure
+912/tcp   open     apex-mesh
+1042/tcp  open     afrog
+1043/tcp  open     boinc
+2087/tcp  open     eli
+5040/tcp  open     unknown
+5426/tcp  open     devbasic
+6463/tcp  open     unknown
+7680/tcp  open     pando-pub
+9012/tcp  open     unknown
+9013/tcp  open     unknown
+13010/tcp open     unknown
+13030/tcp open     unknown
+13031/tcp open     unknown
+13032/tcp open     unknown
+17532/tcp open     unknown
+17945/tcp open     unknown
+21128/tcp open     unknown
+22112/tcp open     unknown
+49664/tcp open     unknown
+49665/tcp open     unknown
+49666/tcp open     unknown
+49667/tcp open     unknown
+49668/tcp open     unknown
+49679/tcp open     unknown
+50151/tcp open     unknown
+50160/tcp open     unknown
+54176/tcp open     unknown
+54177/tcp open     unknown
+54178/tcp open     unknown
+54179/tcp open     unknown
+54180/tcp open     unknown
+54196/tcp open     unknown
+54197/tcp open     unknown
+54214/tcp open     unknown
+54217/tcp open     unknown
+54288/tcp open     unknown
+54355/tcp open     unknown
+57621/tcp open     unknown
+64473/tcp open     unknown
+65001/tcp open     unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 10.00 seconds
+</output><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="127.0.0.1"></address><hostnames><hostname type="PTR" name="localhost"></hostname></hostnames><ports><extraports count="65491" state="closed"></extraports><port protocol="tcp" portid="135"><state reason="syn-ack" state="open" reason_ttl="128"></state><service method="table" conf="3" name="msrpc"></service></port><port protocol="tcp" portid="137"><state reason="no-response" state="filtered" reason_ttl="0"></state><service method="table" conf="3" name="netbios-ns"></service></port><port protocol="tcp" portid="445"><state reason="syn-ack" state="open" reason_ttl="128"></state><service method="table" conf="3" name="microsoft-ds"></service></port><port protocol="tcp" portid="902"><state reason="syn-ack" state="open" reason_ttl="128"></state><service method="table" conf="3" name="iss-realsecure"></service></port><port protocol="tcp" portid="912"><state reason="syn-ack" state="open" reason_ttl="128"></state><service method="table" conf="3" name="apex-mesh"></service></port><port protocol="tcp" portid="1042"><state reason="syn-ack" state="open" reason_ttl="128"></state><service method="table" conf="3" name="afrog"></service></port><port protocol="tcp" portid="1043"><state reason="syn-ack" state="open" reason_ttl="128"></state><service method="table" conf="3" name="boinc"></service></port><port protocol="tcp" portid="2087"><state reason="syn-ack" state="open" reason_ttl="128"></state><service method="table" conf="3" name="eli"></service></port><port protocol="tcp" portid="5040"><state reason="syn-ack" state="open" reason_ttl="128"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="tcp" portid="5426"><state reason="syn-ack" state="open" reason_ttl="128"></state><service method="table" conf="3" name="devbasic"></service></port><port protocol="tcp" portid="6463"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="7680"><state reason="syn-ack" state="open" reason_ttl="128"></state><service method="table" conf="3" name="pando-pub"></service></port><port protocol="tcp" portid="9012"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="9013"><state reason="syn-ack" state="open" reason_ttl="128"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="tcp" portid="13010"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="13030"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="13031"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="13032"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="17532"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="17945"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="21128"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="22112"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="49664"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="49665"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="49666"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="49667"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="49668"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="49679"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="50151"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="50160"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="54176"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="54177"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="54178"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="54179"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="54180"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="54196"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="54197"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="54214"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="54217"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="54288"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="54355"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="57621"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="64473"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port><port protocol="tcp" portid="65001"><state reason="syn-ack" state="open" reason_ttl="128"></state><service></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><runstats><finished timestr="Sun Dec  4 18:14:31 2022" time="1670195671"></finished><hosts down="0" total="1" up="1"></hosts></runstats></nmaprun>
