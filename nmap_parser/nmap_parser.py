@@ -39,23 +39,24 @@ root = tree.getroot()
 # for child in root.iter('ports'):
 #     print(child.tag, child.attrib)
 
-
+#use xml library to extract port ids to a  list
 for p in root.iter('port'):
     pNums = p.get('portid')
     pState = p.get('state')
     pServ = p.get('service')
     scan.append(pNums)
-print(type(scan[1]))
-
+    
+# type conversion for compare
 scan = [int(p) for p in scan]
 
+#grab formatted pps, convert to list
 with open(app_pps, 'r') as f:
     lines = f.readlines()
     for line in lines:
         pps.append(line)
 
+#type conversion for compare
 pps = [int(p) for p in pps]
-print(pps)
 
 
 # if scanl not in app_pps, then check it out
