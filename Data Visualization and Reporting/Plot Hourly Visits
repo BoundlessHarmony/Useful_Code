@@ -1,0 +1,12 @@
+# Given a set of data of website vists in hour chunks
+
+plt.figure(figsize=(12,6), dpi=350)
+plt.scatter(range(0, len(hits)), hits, s=1)
+plt.title("Unique Visitors / Hour")
+
+# The part thats actually interesting was generating x axis tick values which matched the hourly binned data
+plt.xticks([i*24 for i in range(31)], [i for i in range(31)])
+plt.xlabel("Day")
+plt.ylabel("Visitors")
+plt.grid()
+plt.show()
