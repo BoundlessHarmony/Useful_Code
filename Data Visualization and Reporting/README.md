@@ -17,7 +17,7 @@ This folder contains Python scripts and utilities for visualizing datasets and g
 ## Image-based Examples
 
 ### Plot Hourly Visists
-![A sample image of what this code can generate if given hourly binned data. Note the x axis](USeful_Code/Data Visualization and Reporting/plotting data per hour for a month.PNG)
+![A sample image of what this code can generate if given hourly binned data. Note the x axis](Useful_Code/Data Visualization and Reporting/plotting data per hour for a month.PNG)
 
 ### Prerequisites
 
