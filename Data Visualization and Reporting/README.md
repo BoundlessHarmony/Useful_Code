@@ -16,7 +16,7 @@ This folder contains Python scripts and utilities for visualizing datasets and g
 
 ## Image-based Examples
 
-### Plot Hourly Visists
+### Plot Hourly Visits
 ![A sample image of what this code can generate if given hourly binned data. Note the x axis](https://github.com/BoundlessHarmony/Useful_Code/blob/main/Data%20Visualization%20and%20Reporting/plotting%20data%20per%20hour%20for%20a%20month.PNG)
 
 ### Prerequisites
