@@ -4,7 +4,7 @@ This folder contains Python scripts and utilities for visualizing datasets and g
 
 ## Contents
 
-- `basic_plots.py`: A script for creating common plots like histograms, bar charts, and scatter plots.
+- `Plot Hourly Visits`: A script for a scatter plot based on data binned into hours. Useful Xtick range generation snippet.
 - `correlation_heatmap.py`: A script for generating a correlation matrix heatmap to understand relationships between features.
 - `boxplot_visualization.py`: A utility to create boxplots for detecting outliers and understanding data distribution.
 - `pair_plot.py`: A script to generate pair plots (scatter plots for each feature pair) to explore potential relationships in the data.
@@ -13,6 +13,11 @@ This folder contains Python scripts and utilities for visualizing datasets and g
 - `custom_dashboard.py`: A script to generate an interactive dashboard using Plotly or Dash to present dynamic reports.
 
 ## Getting Started
+
+## Image-based Examples
+
+### Plot Hourly Visists
+![A sample image of what this code can generate if given hourly binned data. Note the x axis](image_url)
 
 ### Prerequisites
 
